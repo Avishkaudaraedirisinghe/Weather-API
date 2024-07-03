@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'/>
+        <title>Weather App</title>
+        <link rel="stylesheet" href="Assets/CSS/Style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="search-box">
+                <i class="bx bxs-map"></i>
+                <input type="text" placeholder="Enter Your Location">
+                <button class="bx bx-search"></button>
+            </div>
+            <div class="weather-box">
+                <div class="Box">
+                    <div class="info-weather">
+                        <img src="https://cdn.icon-icons.com/icons2/3349/PNG/256/cloudy_weather_sun_cloud_icon_210228.png" alt="Cloudy"><br>
+                        <span class="temperature">0</span><span>°C</span>
+                        <p class="description"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="weather-details">
+                <div class="humidity">
+                    <i class="bx bx-water"></i>
+                    <div class="text">
+                       <div class="info-humidity">
+                        <span>0%</span>
+                       </div> 
+                       <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="wind">
+                    <i class="bx bx-wind"></i>
+                    <div class="text">
+                        <div class="info-wind">
+                            <span>0 Km/h</span>
+                        </div>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+            <div class="not-found">
+                <div class="box">
+                    <img src ="https://cdni.iconscout.com/illustration/premium/thumb/not-found-4064375-3363936.png"/>
+                    <p>!Oops Location not found</p>
+                </div>
+            </div>
+        </div>
+        <script src="Assets/JS/Main.js"></script>
+    </body>
+</html>
